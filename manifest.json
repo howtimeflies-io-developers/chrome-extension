@@ -1,0 +1,18 @@
+{
+  "name": "How Time Flies",
+  "description": "An extension to send the active tab url to the HowTimeFlies application",
+  "version": "1",
+  "permissions": [
+    "tabs",
+    "http://localhost/how-time-flies"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/how-time-flies.png",
+    "default_title": "How time flies!"
+  },
+  "manifest_version": 2
+}
